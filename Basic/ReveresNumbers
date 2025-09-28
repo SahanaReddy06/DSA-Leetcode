@@ -8,3 +8,15 @@ def reverse(n):
 
 n=12345
 print(reverse(n))
+
+
+or 
+
+
+
+def reverse(n):
+    if n<0:
+        return -(str(n)[::-1])
+    return (str(n)[::-1])
+num=12345
+print(reverse(num))
