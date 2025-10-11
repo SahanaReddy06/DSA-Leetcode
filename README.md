@@ -12,8 +12,8 @@ Think of this as my **DSA playground and interview prep notebook!** 📝
 ## 🗂️ Problem Categories
 The problems are organized into categories for easier navigation:
 
-- 🔢 Arrays & Hashing  
-- 🔀 Two Pointers & Sliding Window  
+- 🔢 Arrays & Two Pointers
+- 🔀 Sliding Window  
 - 📚 Stack & Queue  
 - 🔗 Linked List  
 - 🌳 Trees & Graphs  
@@ -22,7 +22,7 @@ The problems are organized into categories for easier navigation:
 - 🔄 Backtracking  
 - 💡 Greedy Algorithms  
 - ⏱️ Sorting  
-- 🧮 Math & Bit Manipulation  
+- 🧮 Hashing 
 
 Each folder contains:  
 - Leetcode numbers
