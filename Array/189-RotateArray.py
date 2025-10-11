@@ -40,7 +40,7 @@ k=3
 print(rotate(num, k))
 
 
-#right rotate
+
 
 
 #rigth rotate
