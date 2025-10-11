@@ -9,9 +9,6 @@ class Solution:
 #0^2^0^0
 #2
 
-
-
-
 #Brute force
 def single(nums):
     n=len(nums)
