@@ -11,8 +11,6 @@ def sum(arr, target):
         else:
             left+=1
     return None
-        
-    
 arr=[2,7,11,15]
 target=9
 print(sum(arr, target))
