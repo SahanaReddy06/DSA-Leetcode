@@ -15,7 +15,6 @@ class Solution:
 
 
 #Brute
-
 def linearSearch(arr, x):
     for num in arr:
         if num==x:
