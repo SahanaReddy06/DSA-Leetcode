@@ -1,5 +1,4 @@
 #Bruteforce method
-
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         n=len(nums)
@@ -8,10 +7,7 @@ class Solution:
                 if nums[i]+nums[j]==target:
                     return i,j
 
-
-
 #optimize
-
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         seen={}
