@@ -9,10 +9,7 @@ def reverse(n):
 n=12345
 print(reverse(n))
 
-
-or 
-
-
+or
 
 def reverse(n):
     if n<0:
