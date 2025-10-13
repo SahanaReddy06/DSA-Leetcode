@@ -4,7 +4,7 @@ class Solution:
         result=[0]*n
         left=0
         right=n-1
-        pos=n-1
+        pos=n-1     #pos is used to store largest number
 
         while left <= right:
             left_sq = nums[left] ** 2
