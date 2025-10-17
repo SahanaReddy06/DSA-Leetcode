@@ -3,8 +3,8 @@ class Solution:
         result=[]
         candidates.sort()           #sort
 
-        def backtrack(start, path, target):
-            if target==0:
+        def backtrack(start, path, total):
+            if total==target:
                 result.append(list(path))
                 return
 
@@ -16,14 +16,13 @@ class Solution:
                     break     
 
                 path.append(candidates[i])
-                backtrack(i+1, path, target-candidates[i])   #I’ve already used candidates[i] once, don’t use it again.that why i+1
+                backtrack(i+1, path, total+candidates[i])   #I’ve already used candidates[i] once, don’t 
                 path.pop()
 
-        backtrack(0,[], target)
+        backtrack(0, [], 0)
         return result
 
 #In Combination Sum I, you’re adding money to reach a goal balance.
-
 #In Combination Sum II, you’re spending money until your balance hits zero.
 
 
