@@ -12,7 +12,7 @@ class Solution:
             for i in range(start, len(candidates)):
                 if i>start and candidates[i]==candidates[i-1]:   # Skip duplicates
                     continue
-                if candidates[i]>target:     #stop too large
+                if total+candidates[i]>target:     #stop too large
                     break     
 
                 path.append(candidates[i])
