@@ -15,6 +15,12 @@ class Solution:
             fast=nums[fast]
         return slow
 
-       
+       #Marked Steps
+
+#InitPointers → slow = nums[0], fast = nums[0]
+#DetectCycle → move slow 1x, fast 2x until slow == fast
+#ResetSlow → slow = nums[0]
+#FindDuplicate → move both 1x until slow == fast
+#Return → slow is the duplicate
 
         
