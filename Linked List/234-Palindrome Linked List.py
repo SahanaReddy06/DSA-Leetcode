@@ -29,3 +29,10 @@ class Solution:
             second = second.next
         
         return True
+
+
+#Find the middle of the list using slow and fast pointers.
+#Reverse the second half of the list.
+#Compare first half and reversed second half node by node.
+#Optional: Restore the list (not always needed).
+#Return True if all nodes match, else Fal
