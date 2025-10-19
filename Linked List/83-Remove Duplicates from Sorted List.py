@@ -15,3 +15,10 @@ class Solution:
 
 
           
+
+#InitPointer → Set current = head
+#TraverseList → While current and current.next are not None:
+#CheckDuplicate → If current.val == current.next.val:
+#Skip the next node: current.next = current.next.next
+#Else: #MoveForward → current = current.next
+#ReturnHead → Return head
