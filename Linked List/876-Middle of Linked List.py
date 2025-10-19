@@ -13,4 +13,9 @@ class Solution:
             fast=fast.next.next
         return slow
 
-        
+#InitPointers → Set slow = head and fast = head
+#TraverseList → While fast and fast.next are not None:
+#Move slow one step: slow = slow.next (#slow moves 1x)
+#Move fast two steps: fast = fast.next.next (#fast moves 2x)
+#MiddleFound → When loop ends, slow points to the middle node
+#ReturnMiddle → Return slow        
