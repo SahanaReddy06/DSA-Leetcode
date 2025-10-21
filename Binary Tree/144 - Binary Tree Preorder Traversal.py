@@ -13,6 +13,7 @@ class Solution:
 
 
 
+
 #iterative preorder using stack
 
 class TreeNode:
@@ -39,4 +40,12 @@ def preorderTraversal(root):
             stack.append(node.left)
 
     return result
+
+
+#push the root node into the stack.
+#While the stack is not empty:
+#Pop the top node → process it (add its value to result).
+#Push the right child (if any) into the stack.
+#Push the left child (if any) into the stack.
+#We push right first so that left is processed first (since stack is LIFO).
 
