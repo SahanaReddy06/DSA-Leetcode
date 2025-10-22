@@ -20,7 +20,8 @@ class Solution:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-            level_node=list(reversed(level_node)) if len(res)%2 else level_node
+            if len(res) % 2 == 1:
+                level_node.reverse()
             res.append(level_node)
         return res
 
